@@ -1,0 +1,178 @@
+h1{
+  line-height: 1.5;
+  font-size: 5rem;
+}
+
+h2{
+
+  font-size: 3.3rem;
+}
+
+h3{
+
+}
+p{
+  color: #8f8f8f;
+}
+
+
+
+body{
+font-family: 'Noto Sans', sans-serif;
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'MuseoModerno', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Dowload Buttons */
+.dowload-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Tittle Image */
+
+.tittle-image{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  padding-top: 18px;
+  right: 30%;
+}
+
+@media (max-width: 1028px)
+ {
+  .tittle-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+/* Features */
+#features{
+  background-color: white;
+  position: relative;
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c86;
+}
+/* Testimonils */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* pre-end */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  text-decoration-color: white;
+}
+
+.dowload-button2{
+  margin: 5% 3% 5% 0;
+}
+.pre-endtext{
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.copyright{
+
+}
+.rede-social{
+margin: 40px 30px;
+font-size: 60px;
+
+
+}
+.rede-social:hover{
+  color: black;
+}
